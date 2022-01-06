@@ -1,0 +1,14 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-box {
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
