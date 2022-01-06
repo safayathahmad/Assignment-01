@@ -1,6 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0 auto;
+    /* width: 90%; */
+}
+
+span {
+    color: purple;
 }
 
 .hero {
@@ -21,5 +26,49 @@ body {
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+
+.hero-box-1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    padding-left: 15px;
+}
+
+.after-hero {
+    display: flex;
+}
+
+.hero-box-2 {
+    width: 33%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.img-hero {
+    width: 50%;
+}
+
+h3 {
+    text-align: center;
+}
+
+#hero1 {
+    box-: 5px 7px 10px gray;
+    height: 80%;
+    background: #E59292;
+}
+
+#hero2 {
+    box-: 5px 7px 10px gray;
+    height: 80%;
+    background: #F27450;
+}
+
+#hero3 {
+    box-: 5px 7px 10px gray;
+    height: 80%;
+    background: #50E7F2;
 }
 
