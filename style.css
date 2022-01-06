@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
 }
 
 .hero {
@@ -12,3 +13,13 @@ body {
     margin-left: 5%;
     padding-left: 2%;
 }
+
+.about-us {
+    text-decoration: none;
+    background: purple;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
