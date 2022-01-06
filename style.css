@@ -4,6 +4,10 @@ body {
     width: 90%;
 }
 
+h1 {
+    font-weight: 900;
+}
+
 span {
     color: purple;
 }
@@ -106,3 +110,73 @@ h2 {
     margin-top: 50px;
     margin-right: 100px;
 }
+.footer {
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Poppins', sans-serif; 
+    width: 50%;
+    margin-left: 15%;
+ }
+ 
+ .inpx {
+    width: 80%;
+    height: 40px;
+ }
+ 
+ .textarea {
+    width: 80%;
+    height: 110px;
+ }
+ 
+ .sendX {
+    position: absolute;
+    left: 42%;
+    background: #8c8c8c;
+    color: #fff;
+    padding: 8px;
+    width: 100px;
+    border: none;
+ }
+ 
+ .sendX:hover {
+    color: black;
+    background: #fff;
+ }
+ 
+ .copy-p {
+    color: black;
+    text-align: center;
+ }
+ 
+ .copyright {   
+    font-size: 20px;
+    bottom: -10px;
+    text-align: center;
+ }
+  
+ .inpx {
+    width: 100%;
+ }
+ 
+ .textarea {
+    width: 100%;
+ }
+
+ .form-section {
+     margin: 0 auto;
+     display: flex;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     border-bottom-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     color: #fff;
+     background: purple;
+     padding:100px;
+     box-sizing: border-box;
+     position: relative;
+     font-family: 'Poppins', sans-serif; 
+ }
+
+ .footer-img {
+     width: 75%;
+ }
